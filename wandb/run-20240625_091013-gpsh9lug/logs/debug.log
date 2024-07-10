@@ -1,0 +1,32 @@
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Configure stats pid to 58208
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Loading settings from /Users/seongyeon/.config/wandb/settings
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Loading settings from /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/settings
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-25 09:10:13,506 INFO    MainThread:58208 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:_log_setup():520] Logging user logs to /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240625_091013-gpsh9lug/logs/debug.log
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240625_091013-gpsh9lug/logs/debug-internal.log
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x179f1dca0>
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:init():560] calling init triggers
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:init():610] starting backend
+2024-06-25 09:10:13,507 INFO    MainThread:58208 [wandb_init.py:init():614] setting up manager
+2024-06-25 09:10:13,512 INFO    MainThread:58208 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-06-25 09:10:13,512 INFO    MainThread:58208 [wandb_init.py:init():622] backend started and connected
+2024-06-25 09:10:13,519 INFO    MainThread:58208 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-25 09:10:13,519 INFO    MainThread:58208 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-25 09:10:13,519 INFO    MainThread:58208 [wandb_init.py:init():711] updated telemetry
+2024-06-25 09:10:13,520 INFO    MainThread:58208 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-25 09:11:44,373 ERROR   MainThread:58208 [wandb_init.py:init():770] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-06-25 09:11:44,374 ERROR   MainThread:58208 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/DL-tf/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/DL-tf/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

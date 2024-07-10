@@ -1,0 +1,826 @@
+2024-06-24 23:14:04,187 INFO    StreamThr :37184 [internal.py:wandb_internal():85] W&B internal server running at pid: 37184, started at: 2024-06-24 23:14:04.186953
+2024-06-24 23:14:04,188 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status
+2024-06-24 23:14:04,202 INFO    WriterThread:37184 [datastore.py:open_for_write():87] open: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/run-24rbn9sx.wandb
+2024-06-24 23:14:04,202 DEBUG   SenderThread:37184 [sender.py:send():379] send: header
+2024-06-24 23:14:04,213 DEBUG   SenderThread:37184 [sender.py:send():379] send: run
+2024-06-24 23:14:04,760 INFO    SenderThread:37184 [dir_watcher.py:__init__():211] watching files in: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files
+2024-06-24 23:14:04,760 INFO    SenderThread:37184 [sender.py:_start_run_threads():1188] run started: 24rbn9sx with start time 1719238444.186823
+2024-06-24 23:14:04,764 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: check_version
+2024-06-24 23:14:04,764 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: check_version
+2024-06-24 23:14:04,827 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: run_start
+2024-06-24 23:14:04,829 DEBUG   HandlerThread:37184 [system_info.py:__init__():26] System info init
+2024-06-24 23:14:04,829 DEBUG   HandlerThread:37184 [system_info.py:__init__():41] System info init done
+2024-06-24 23:14:04,829 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:14:04,829 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:14:04,829 INFO    HandlerThread:37184 [system_monitor.py:probe():214] Collecting system info
+2024-06-24 23:14:04,831 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:14:04,833 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:14:04,837 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:14:04,841 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:14:04,842 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:14:05,291 DEBUG   HandlerThread:37184 [system_info.py:probe():152] Probing system
+2024-06-24 23:14:05,296 DEBUG   HandlerThread:37184 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-24 23:14:05,296 DEBUG   HandlerThread:37184 [system_info.py:probe():200] Probing system done
+2024-06-24 23:14:05,296 DEBUG   HandlerThread:37184 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.8.16', 'heartbeatAt': '2024-06-24T14:14:05.291647', 'startedAt': '2024-06-24T14:14:04.179909', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'DLTHON/DLTHON_base_bert.ipynb', 'codePathLocal': None, 'root': '/Users/seongyeon/Desktop/AI/AIFFEL_STUDY', 'host': 'gimseong-yeons-MacBook-Pro-2.local', 'username': 'seongyeon', 'executable': '/opt/homebrew/Caskroom/miniforge/base/envs/DL-tf/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3504, 'min': 600, 'max': 3504}, 'cpu_freq_per_core': [{'current': 3504, 'min': 600, 'max': 3504}], 'disk': {'/': {'total': 460.4317207336426, 'used': 355.5377616882324}}, 'gpuapple': {'type': 'Apple M2', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 24.0}}
+2024-06-24 23:14:05,296 INFO    HandlerThread:37184 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-24 23:14:05,296 INFO    HandlerThread:37184 [system_monitor.py:probe():227] Publishing system info
+2024-06-24 23:14:05,296 DEBUG   HandlerThread:37184 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-24 23:14:05,767 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/conda-environment.yaml
+2024-06-24 23:14:17,307 DEBUG   HandlerThread:37184 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-24 23:14:17,308 INFO    HandlerThread:37184 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-24 23:14:17,318 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:17,318 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-24 23:14:17,318 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:17,318 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-24 23:14:17,318 DEBUG   SenderThread:37184 [sender.py:send():379] send: files
+2024-06-24 23:14:17,318 INFO    SenderThread:37184 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-24 23:14:17,549 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-24 23:14:17,549 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:14:17,552 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: python_packages
+2024-06-24 23:14:17,553 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:14:17,554 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:17,560 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:14:17,560 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:14:17,560 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:14:17,560 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:14:17,560 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:14:17,560 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:14:17,560 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:14:17,560 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:14:17,562 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:14:17,562 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:14:17,563 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:14:17,826 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/conda-environment.yaml
+2024-06-24 23:14:17,826 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/wandb-metadata.json
+2024-06-24 23:14:17,826 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/requirements.txt
+2024-06-24 23:14:17,838 DEBUG   SenderThread:37184 [sender.py:send():379] send: telemetry
+2024-06-24 23:14:17,838 DEBUG   SenderThread:37184 [sender.py:send():379] send: telemetry
+2024-06-24 23:14:17,838 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:14:18,096 INFO    wandb-upload_0:37184 [upload_job.py:push():130] Uploaded file /var/folders/1b/dx8_94fs0q740wx3lfknk6y40000gn/T/tmp2o6yfkhbwandb/oqvk586h-wandb-metadata.json
+2024-06-24 23:14:18,555 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:18,829 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:14:19,559 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:20,618 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:20,845 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:14:20,858 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:21,602 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:22,586 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:23,590 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:24,637 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:25,627 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:26,571 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:26,624 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:27,642 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:28,636 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:29,639 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:30,643 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:31,592 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:31,679 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:32,557 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:14:32,560 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:14:32,671 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:33,673 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:34,693 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:35,694 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:36,697 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:36,864 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:37,700 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:37,927 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/config.yaml
+2024-06-24 23:14:38,704 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:39,707 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:40,715 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:41,716 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:42,570 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:42,721 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:43,724 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:44,725 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:45,728 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:46,730 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:47,591 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:14:47,591 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:14:47,734 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:47,802 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:48,738 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:49,741 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:50,745 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:51,750 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:52,753 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:53,601 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:53,758 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:54,809 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:55,777 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:56,781 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:57,787 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:58,607 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:14:58,789 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:14:59,788 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:00,796 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:01,794 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:02,580 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:15:02,580 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:15:02,796 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:03,800 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:03,827 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:04,803 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:05,808 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:06,813 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:07,878 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:08,842 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:09,610 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:09,846 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:10,847 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:11,851 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:12,856 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:13,893 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:14,612 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:14,869 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:15,871 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:16,876 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:17,585 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:15:17,585 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:15:17,878 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:18,912 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:19,900 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:19,903 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:20,904 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:21,917 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:22,922 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:23,944 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:24,935 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:25,649 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:25,955 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:26,953 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:27,959 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:28,964 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:29,969 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:30,653 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:30,974 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:31,974 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:32,585 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:15:32,585 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:15:32,978 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:33,980 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:34,985 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:35,882 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:36,001 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:36,995 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:38,027 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:39,003 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:40,008 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:41,038 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:41,669 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:42,033 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:43,039 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:44,066 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:45,055 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:46,298 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:47,065 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:47,591 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:15:47,591 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:15:47,869 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:48,067 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:49,070 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:50,096 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:51,094 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:52,099 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:53,104 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:53,648 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:54,107 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:55,110 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:56,112 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:57,117 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:58,119 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:15:58,654 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:15:59,121 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:00,126 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:01,134 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:02,130 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:02,593 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:16:02,593 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:16:03,178 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:03,885 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:04,176 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:05,153 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:06,155 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:07,156 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:08,161 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:09,161 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:09,675 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:10,166 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:11,171 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:12,175 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:13,180 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:14,185 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:15,192 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:15,670 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:16,195 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:17,201 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:17,598 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:16:17,598 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:16:18,203 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:19,208 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:20,222 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:20,898 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:21,218 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:22,223 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:23,225 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:24,226 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:25,231 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:26,231 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:26,680 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:26,811 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:26,811 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:26,811 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:26,811 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:26,813 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:26,814 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:26,816 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:26,821 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:26,825 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:26,931 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:26,931 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:26,931 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:26,932 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:26,932 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:26,932 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:26,932 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:26,932 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:27,240 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:27,240 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:27,240 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:27,240 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:27,241 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:28,237 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:28,569 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:29,242 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:30,246 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:31,250 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:31,687 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:32,261 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:32,453 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:32,453 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:32,453 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:32,454 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:32,454 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:32,456 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:32,456 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:32,461 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:32,462 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:32,462 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:32,463 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:32,463 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:32,463 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:32,463 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:32,464 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:32,464 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:32,786 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:32,786 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:32,787 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:16:32,787 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:32,787 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:16:33,261 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:34,265 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:34,593 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:35,270 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:36,275 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:36,721 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:36,721 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:36,721 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:36,722 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:36,722 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:36,723 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:36,725 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:36,727 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:36,729 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:36,729 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:36,729 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:36,730 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:36,730 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:36,730 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:36,731 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:36,731 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:36,731 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:36,983 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:36,983 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:36,983 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:36,984 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:36,984 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:37,279 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:38,280 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:38,612 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:39,283 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:40,287 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:41,292 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:42,294 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:42,682 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:42,787 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:42,787 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:42,787 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:42,787 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:42,788 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:42,788 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:42,790 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:42,792 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:42,793 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:42,793 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:42,793 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:42,794 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:42,794 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:42,795 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:42,795 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:42,795 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:42,795 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:43,044 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:43,045 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:43,045 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:43,045 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:43,256 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:43,256 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:43,256 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:43,256 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:43,257 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:43,258 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:43,261 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:43,263 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:43,263 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:43,263 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:43,263 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:43,264 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:43,264 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:43,264 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:43,265 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:43,265 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:43,265 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:43,735 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:43,735 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:43,735 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:43,736 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:43,740 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:44,317 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:44,634 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:45,287 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:45,287 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:45,287 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:45,287 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:45,288 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:45,288 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:45,289 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:45,294 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:45,295 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:45,296 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:45,296 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:45,296 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:45,297 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:45,297 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:45,297 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:45,297 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:45,297 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:45,670 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:45,671 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:45,671 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:45,671 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:45,672 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:46,314 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:46,639 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:47,319 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:47,606 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:16:47,606 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:16:47,836 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:47,836 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:47,836 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:47,837 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:47,837 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:47,837 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:47,838 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:47,838 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:47,838 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:47,838 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:47,841 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:47,842 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:47,842 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:47,842 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:47,842 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:48,139 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:48,140 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:48,140 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:48,323 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:48,609 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:48,609 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:48,609 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:48,611 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:48,612 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:48,614 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:48,617 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:48,619 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:48,619 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:48,619 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:48,619 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:48,621 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:48,621 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:48,621 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:48,621 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:48,621 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:48,621 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:48,944 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:48,944 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:48,944 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:48,946 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:49,328 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:50,331 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:50,656 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:51,336 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:52,338 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:53,353 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:53,415 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:16:53,415 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:16:53,416 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:16:53,416 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:16:53,416 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:16:53,417 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:16:53,418 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:16:53,422 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:16:53,425 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:16:53,670 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:16:53,671 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:16:53,671 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:16:53,671 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:16:53,671 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:16:53,671 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:16:53,671 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:16:53,671 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:16:53,729 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:16:53,729 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:16:53,729 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:16:53,729 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:53,730 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:16:54,363 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:54,671 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:16:55,360 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:56,366 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:57,372 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:58,376 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:16:58,731 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:16:59,386 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:00,386 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:01,390 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:02,392 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:02,612 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:17:02,613 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:17:03,393 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:03,865 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:04,399 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:05,402 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:06,404 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:07,407 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:08,409 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:09,414 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:09,716 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:10,414 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:11,421 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:12,422 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:13,424 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:14,428 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:14,725 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:15,438 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:16,442 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:17,443 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:17,615 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:17:17,616 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:17:18,448 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:19,453 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:19,886 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:20,458 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:21,463 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:22,465 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:23,467 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:24,472 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:25,477 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:25,735 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:26,483 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:27,483 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:28,492 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:29,491 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:29,888 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:17:29,888 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:17:29,888 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:17:29,888 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:17:29,888 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:17:29,888 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:17:29,889 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:17:29,893 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:17:29,894 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:17:29,924 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:17:29,925 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:17:29,925 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:17:29,925 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:17:29,925 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:17:29,925 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:17:29,926 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:17:29,926 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:17:30,217 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:17:30,217 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:17:30,217 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:17:30,218 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:17:30,494 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:30,833 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:17:31,227 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:31,497 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:32,502 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:32,616 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:17:32,617 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:17:33,505 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:34,507 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:35,512 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:36,517 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:36,866 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:37,522 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:38,527 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:39,530 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:40,531 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:41,535 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:42,536 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:42,742 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:43,542 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:44,542 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:45,347 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:17:45,347 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:17:45,347 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:17:45,348 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:17:45,348 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:17:45,348 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:17:45,349 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:17:45,353 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:17:45,354 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:17:45,358 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:17:45,358 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:17:45,358 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:17:45,358 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:17:45,358 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:17:45,358 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:17:45,359 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:17:45,359 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:17:45,695 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:17:45,695 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:17:45,696 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:17:45,696 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:45,698 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:17:46,556 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:46,913 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:17:47,561 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:47,622 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:17:47,623 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:17:47,852 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:48,566 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:49,570 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:50,572 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:51,577 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:52,583 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:53,587 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:53,753 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:54,589 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:55,595 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:56,598 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:57,601 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:58,606 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:17:58,777 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:17:59,613 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:00,618 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:01,624 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:02,624 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:02,627 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:18:02,628 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:18:03,627 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:03,900 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:04,632 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:05,639 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:06,637 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:07,645 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:08,647 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:09,648 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:09,775 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:10,654 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:11,658 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:12,665 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:13,670 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:14,675 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:14,777 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:15,505 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:18:15,505 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:18:15,505 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:18:15,505 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:18:15,506 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:18:15,507 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:18:15,509 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:18:15,510 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:18:15,511 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:18:15,673 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:16,682 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:16,782 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: pause
+2024-06-24 23:18:16,782 INFO    HandlerThread:37184 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-24 23:18:16,782 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:18:16,783 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:18:16,783 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:18:16,783 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:18:16,783 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:18:16,783 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:18:16,783 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:18:16,783 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:18:16,784 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:18:16,785 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:18:17,636 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:18:17,637 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:18:17,682 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:18,686 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:19,079 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:18:19,689 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:19,918 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:20,694 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:21,696 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:22,698 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:23,701 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:24,704 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:25,708 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:25,788 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:26,714 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:27,719 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:28,724 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:29,730 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:30,732 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:31,737 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:31,792 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:32,635 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:18:32,636 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:18:32,740 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:33,747 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:34,749 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:35,752 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:36,757 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:36,889 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:37,758 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:38,763 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:39,766 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:40,767 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:41,769 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:42,776 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:42,791 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:43,782 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:44,781 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:45,785 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:46,791 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:47,642 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-24 23:18:47,643 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: stop_status
+2024-06-24 23:18:47,794 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:48,001 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:48,798 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:49,801 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:50,806 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:51,809 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:52,814 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:53,804 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:53,819 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:54,824 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:54,993 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: resume
+2024-06-24 23:18:54,993 INFO    HandlerThread:37184 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-24 23:18:54,994 INFO    HandlerThread:37184 [system_monitor.py:start():194] Starting system monitor
+2024-06-24 23:18:54,994 INFO    SystemMonitor:37184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-24 23:18:54,994 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started cpu monitoring
+2024-06-24 23:18:54,996 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started disk monitoring
+2024-06-24 23:18:54,998 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-24 23:18:55,000 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started memory monitoring
+2024-06-24 23:18:55,001 INFO    SystemMonitor:37184 [interfaces.py:start():188] Started network monitoring
+2024-06-24 23:18:55,059 DEBUG   SenderThread:37184 [sender.py:send():379] send: telemetry
+2024-06-24 23:18:55,061 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: server_info
+2024-06-24 23:18:55,061 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: server_info
+2024-06-24 23:18:55,256 DEBUG   SenderThread:37184 [sender.py:send():379] send: exit
+2024-06-24 23:18:55,256 INFO    SenderThread:37184 [sender.py:send_exit():586] handling exit code: 0
+2024-06-24 23:18:55,257 INFO    SenderThread:37184 [sender.py:send_exit():588] handling runtime: 18
+2024-06-24 23:18:55,257 INFO    SenderThread:37184 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 23:18:55,257 INFO    SenderThread:37184 [sender.py:send_exit():594] send defer
+2024-06-24 23:18:55,258 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,258 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-24 23:18:55,258 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,258 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-24 23:18:55,258 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 1
+2024-06-24 23:18:55,258 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,258 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-24 23:18:55,258 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,258 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-24 23:18:55,258 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 2
+2024-06-24 23:18:55,258 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,258 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-24 23:18:55,258 INFO    HandlerThread:37184 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-24 23:18:55,258 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-24 23:18:55,258 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-24 23:18:55,259 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined disk monitor
+2024-06-24 23:18:55,259 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-24 23:18:55,259 DEBUG   SystemMonitor:37184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-24 23:18:55,386 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-24 23:18:55,386 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined memory monitor
+2024-06-24 23:18:55,387 INFO    HandlerThread:37184 [interfaces.py:finish():200] Joined network monitor
+2024-06-24 23:18:55,388 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,389 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-24 23:18:55,389 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 3
+2024-06-24 23:18:55,389 DEBUG   SenderThread:37184 [sender.py:send():379] send: stats
+2024-06-24 23:18:55,389 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,390 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-24 23:18:55,390 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,390 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-24 23:18:55,390 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 4
+2024-06-24 23:18:55,390 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,390 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-24 23:18:55,390 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,390 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-24 23:18:55,390 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 5
+2024-06-24 23:18:55,390 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,390 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-24 23:18:55,391 DEBUG   SenderThread:37184 [sender.py:send():379] send: summary
+2024-06-24 23:18:55,391 INFO    SenderThread:37184 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-24 23:18:55,391 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,391 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-24 23:18:55,391 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 6
+2024-06-24 23:18:55,391 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,391 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-24 23:18:55,392 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,392 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-24 23:18:55,394 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: status_report
+2024-06-24 23:18:55,599 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 7
+2024-06-24 23:18:55,599 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:55,599 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-24 23:18:55,599 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:55,599 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-24 23:18:56,261 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/config.yaml
+2024-06-24 23:18:56,262 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/wandb-summary.json
+2024-06-24 23:18:56,263 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 23:18:56,934 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 8
+2024-06-24 23:18:56,934 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 23:18:56,935 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:56,935 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-24 23:18:56,936 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:56,936 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-24 23:18:56,936 INFO    SenderThread:37184 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-24 23:18:56,936 INFO    SenderThread:37184 [job_builder.py:_get_source_type():580] no source found
+2024-06-24 23:18:56,936 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 9
+2024-06-24 23:18:56,937 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:56,937 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-24 23:18:56,937 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:56,937 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-24 23:18:56,937 INFO    SenderThread:37184 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-24 23:18:57,268 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 23:18:57,269 INFO    Thread-12 :37184 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:18:57,270 INFO    SenderThread:37184 [dir_watcher.py:finish():388] scan: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files
+2024-06-24 23:18:57,271 INFO    SenderThread:37184 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/requirements.txt requirements.txt
+2024-06-24 23:18:57,271 INFO    SenderThread:37184 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log output.log
+2024-06-24 23:18:57,272 INFO    SenderThread:37184 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/config.yaml config.yaml
+2024-06-24 23:18:57,276 INFO    SenderThread:37184 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/wandb-summary.json wandb-summary.json
+2024-06-24 23:18:57,279 INFO    SenderThread:37184 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/conda-environment.yaml conda-environment.yaml
+2024-06-24 23:18:57,281 INFO    SenderThread:37184 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/wandb-metadata.json wandb-metadata.json
+2024-06-24 23:18:57,283 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 10
+2024-06-24 23:18:57,284 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 23:18:57,287 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:57,287 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-24 23:18:57,288 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:57,288 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-24 23:18:57,289 INFO    SenderThread:37184 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 23:18:57,850 INFO    wandb-upload_0:37184 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/requirements.txt
+2024-06-24 23:18:57,854 INFO    wandb-upload_2:37184 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/config.yaml
+2024-06-24 23:18:57,919 INFO    wandb-upload_3:37184 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/wandb-summary.json
+2024-06-24 23:18:57,965 INFO    wandb-upload_4:37184 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/conda-environment.yaml
+2024-06-24 23:18:58,252 INFO    wandb-upload_1:37184 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/files/output.log
+2024-06-24 23:18:58,277 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 23:18:58,278 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 23:18:58,456 INFO    Thread-11 :37184 [sender.py:transition_state():614] send defer: 11
+2024-06-24 23:18:58,456 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:58,456 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-24 23:18:58,456 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:58,456 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-24 23:18:58,456 INFO    SenderThread:37184 [file_pusher.py:join():175] waiting for file pusher
+2024-06-24 23:18:58,458 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 12
+2024-06-24 23:18:58,459 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:58,459 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-24 23:18:58,459 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:58,459 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-24 23:18:58,459 INFO    SenderThread:37184 [file_stream.py:finish():601] file stream finish called
+2024-06-24 23:18:59,137 INFO    SenderThread:37184 [file_stream.py:finish():605] file stream finish is done
+2024-06-24 23:18:59,138 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 13
+2024-06-24 23:18:59,139 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:59,139 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-24 23:18:59,139 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:59,139 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-24 23:18:59,140 INFO    SenderThread:37184 [sender.py:transition_state():614] send defer: 14
+2024-06-24 23:18:59,141 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: defer
+2024-06-24 23:18:59,141 INFO    HandlerThread:37184 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-24 23:18:59,141 DEBUG   SenderThread:37184 [sender.py:send():379] send: final
+2024-06-24 23:18:59,141 DEBUG   SenderThread:37184 [sender.py:send():379] send: footer
+2024-06-24 23:18:59,141 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: defer
+2024-06-24 23:18:59,142 INFO    SenderThread:37184 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-24 23:18:59,145 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-24 23:18:59,145 DEBUG   SenderThread:37184 [sender.py:send_request():406] send_request: poll_exit
+2024-06-24 23:18:59,149 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-24 23:18:59,150 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-24 23:18:59,151 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-24 23:18:59,153 DEBUG   HandlerThread:37184 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-24 23:18:59,154 INFO    HandlerThread:37184 [handler.py:finish():882] shutting down handler
+2024-06-24 23:19:00,150 INFO    WriterThread:37184 [datastore.py:close():296] close: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240624_231404-24rbn9sx/run-24rbn9sx.wandb
+2024-06-24 23:19:00,151 INFO    SenderThread:37184 [sender.py:finish():1608] shutting down sender
+2024-06-24 23:19:00,151 INFO    SenderThread:37184 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-24 23:19:00,151 INFO    SenderThread:37184 [file_pusher.py:join():175] waiting for file pusher

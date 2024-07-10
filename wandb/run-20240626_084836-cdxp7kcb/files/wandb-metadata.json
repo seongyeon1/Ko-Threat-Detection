@@ -1,0 +1,43 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2024-06-25T23:48:44.826989",
+    "startedAt": "2024-06-25T23:48:36.144700",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "DLTHON/DLTHON_base_bert_v4.ipynb",
+    "codePathLocal": null,
+    "root": "/Users/seongyeon/Desktop/AI/AIFFEL_STUDY",
+    "host": "gimseong-yeons-MacBook-Pro-2.local",
+    "username": "seongyeon",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/envs/DL-tf/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3504,
+        "min": 600,
+        "max": 3504
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3504,
+            "min": 600,
+            "max": 3504
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 384.7137985229492
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M2",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 24.0
+    }
+}

@@ -1,0 +1,49 @@
+2024-06-26 08:48:36,158 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Configure stats pid to 98049
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Loading settings from /Users/seongyeon/.config/wandb/settings
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Loading settings from /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/settings
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_init.py:_log_setup():520] Logging user logs to /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_084836-cdxp7kcb/logs/debug.log
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_084836-cdxp7kcb/logs/debug-internal.log
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_init.py:init():560] calling init triggers
+2024-06-26 08:48:36,159 INFO    MainThread:98049 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-26 08:48:36,160 INFO    MainThread:98049 [wandb_init.py:init():585] re-initializing run, found existing run on stack: 04giecnk
+2024-06-26 08:48:36,172 INFO    MainThread:98049 [wandb_run.py:_finish():2109] finishing run seongyeonkim/koelectra-multi-label-classification3/04giecnk
+2024-06-26 08:48:36,173 INFO    MainThread:98049 [jupyter.py:save_history():444] not saving jupyter history
+2024-06-26 08:48:36,174 INFO    MainThread:98049 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-26 08:48:36,174 INFO    MainThread:98049 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-06-26 08:48:36,174 INFO    MainThread:98049 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-06-26 08:48:36,174 INFO    MainThread:98049 [wandb_run.py:_restore():2332] restore
+2024-06-26 08:48:36,175 INFO    MainThread:98049 [wandb_run.py:_restore():2338] restore done
+2024-06-26 08:48:42,909 INFO    MainThread:98049 [wandb_run.py:_footer_history_summary_info():4008] rendering history
+2024-06-26 08:48:42,909 INFO    MainThread:98049 [wandb_run.py:_footer_history_summary_info():4040] rendering summary
+2024-06-26 08:48:42,920 INFO    MainThread:98049 [wandb_run.py:_footer_sync_info():3967] logging synced files
+2024-06-26 08:48:43,074 INFO    MainThread:98049 [wandb_init.py:init():610] starting backend
+2024-06-26 08:48:43,074 INFO    MainThread:98049 [wandb_init.py:init():614] setting up manager
+2024-06-26 08:48:43,078 INFO    MainThread:98049 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-06-26 08:48:43,079 INFO    MainThread:98049 [wandb_init.py:init():622] backend started and connected
+2024-06-26 08:48:43,090 INFO    MainThread:98049 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-26 08:48:43,090 INFO    MainThread:98049 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-26 08:48:43,090 INFO    MainThread:98049 [wandb_init.py:init():711] updated telemetry
+2024-06-26 08:48:43,090 INFO    MainThread:98049 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-26 08:48:44,466 INFO    MainThread:98049 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-26 08:48:44,542 INFO    MainThread:98049 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-26 08:48:44,543 INFO    MainThread:98049 [wandb_init.py:init():795] starting run threads in backend
+2024-06-26 08:48:50,440 INFO    MainThread:98049 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-26 08:48:50,441 INFO    MainThread:98049 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-26 08:48:50,441 INFO    MainThread:98049 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-26 08:48:50,441 INFO    MainThread:98049 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-26 08:48:50,442 INFO    MainThread:98049 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-26 08:50:30,110 INFO    MainThread:98049 [wandb_watch.py:watch():51] Watching
+2024-06-26 11:49:54,004 INFO    MainThread:98049 [wandb_run.py:_finish():2109] finishing run seongyeonkim/koelectra-multi-label-classification3/cdxp7kcb
+2024-06-26 11:49:54,004 INFO    MainThread:98049 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-06-26 11:49:54,004 INFO    MainThread:98049 [wandb_run.py:_restore():2332] restore
+2024-06-26 11:49:54,004 INFO    MainThread:98049 [wandb_run.py:_restore():2338] restore done
+2024-06-26 11:50:27,328 INFO    MainThread:98049 [wandb_run.py:_footer_history_summary_info():4008] rendering history
+2024-06-26 11:50:27,345 INFO    MainThread:98049 [wandb_run.py:_footer_history_summary_info():4040] rendering summary
+2024-06-26 11:50:27,353 INFO    MainThread:98049 [wandb_run.py:_footer_sync_info():3967] logging synced files

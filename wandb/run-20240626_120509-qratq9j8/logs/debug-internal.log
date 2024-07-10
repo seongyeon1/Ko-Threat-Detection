@@ -1,0 +1,1136 @@
+2024-06-26 12:05:16,990 INFO    StreamThr :98059 [internal.py:wandb_internal():85] W&B internal server running at pid: 98059, started at: 2024-06-26 12:05:16.988770
+2024-06-26 12:05:16,992 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status
+2024-06-26 12:05:16,994 INFO    WriterThread:98059 [datastore.py:open_for_write():87] open: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/run-qratq9j8.wandb
+2024-06-26 12:05:16,996 DEBUG   SenderThread:98059 [sender.py:send():379] send: header
+2024-06-26 12:05:16,996 DEBUG   SenderThread:98059 [sender.py:send():379] send: run
+2024-06-26 12:05:17,476 INFO    SenderThread:98059 [dir_watcher.py:__init__():211] watching files in: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files
+2024-06-26 12:05:17,476 INFO    SenderThread:98059 [sender.py:_start_run_threads():1188] run started: qratq9j8 with start time 1719371116.17963
+2024-06-26 12:05:17,483 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: check_version
+2024-06-26 12:05:17,483 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: check_version
+2024-06-26 12:05:17,542 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: run_start
+2024-06-26 12:05:17,543 DEBUG   HandlerThread:98059 [system_info.py:__init__():26] System info init
+2024-06-26 12:05:17,543 DEBUG   HandlerThread:98059 [system_info.py:__init__():41] System info init done
+2024-06-26 12:05:17,543 INFO    HandlerThread:98059 [system_monitor.py:start():194] Starting system monitor
+2024-06-26 12:05:17,543 INFO    SystemMonitor:98059 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-26 12:05:17,543 INFO    HandlerThread:98059 [system_monitor.py:probe():214] Collecting system info
+2024-06-26 12:05:17,544 INFO    SystemMonitor:98059 [interfaces.py:start():188] Started cpu monitoring
+2024-06-26 12:05:17,550 INFO    SystemMonitor:98059 [interfaces.py:start():188] Started disk monitoring
+2024-06-26 12:05:17,551 INFO    SystemMonitor:98059 [interfaces.py:start():188] Started gpuapple monitoring
+2024-06-26 12:05:17,554 INFO    SystemMonitor:98059 [interfaces.py:start():188] Started memory monitoring
+2024-06-26 12:05:17,555 INFO    SystemMonitor:98059 [interfaces.py:start():188] Started network monitoring
+2024-06-26 12:05:17,876 DEBUG   HandlerThread:98059 [system_info.py:probe():152] Probing system
+2024-06-26 12:05:17,877 DEBUG   HandlerThread:98059 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-26 12:05:17,877 DEBUG   HandlerThread:98059 [system_info.py:probe():200] Probing system done
+2024-06-26 12:05:17,877 DEBUG   HandlerThread:98059 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.8.16', 'heartbeatAt': '2024-06-26T03:05:17.876423', 'startedAt': '2024-06-26T03:05:09.155116', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'DLTHON/DLTHON_base_bert_v4.ipynb', 'codePathLocal': None, 'root': '/Users/seongyeon/Desktop/AI/AIFFEL_STUDY', 'host': 'gimseong-yeons-MacBook-Pro-2.local', 'username': 'seongyeon', 'executable': '/opt/homebrew/Caskroom/miniforge/base/envs/DL-tf/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3504, 'min': 600, 'max': 3504}, 'cpu_freq_per_core': [{'current': 3504, 'min': 600, 'max': 3504}], 'disk': {'/': {'total': 460.4317207336426, 'used': 389.02586364746094}}, 'gpuapple': {'type': 'Apple M2', 'vendor': 'sppci_vendor_Apple'}, 'memory': {'total': 24.0}}
+2024-06-26 12:05:17,877 INFO    HandlerThread:98059 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-26 12:05:17,877 INFO    HandlerThread:98059 [system_monitor.py:probe():227] Publishing system info
+2024-06-26 12:05:17,877 DEBUG   HandlerThread:98059 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-26 12:05:18,482 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/conda-environment.yaml
+2024-06-26 12:05:23,503 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/conda-environment.yaml
+2024-06-26 12:05:23,569 DEBUG   HandlerThread:98059 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-26 12:05:23,569 INFO    HandlerThread:98059 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-26 12:05:23,570 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:23,570 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-26 12:05:23,571 DEBUG   SenderThread:98059 [sender.py:send():379] send: files
+2024-06-26 12:05:23,571 INFO    SenderThread:98059 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-26 12:05:23,844 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-26 12:05:23,844 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:05:23,845 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:23,845 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: python_packages
+2024-06-26 12:05:23,845 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:05:24,163 DEBUG   SenderThread:98059 [sender.py:send():379] send: telemetry
+2024-06-26 12:05:24,299 INFO    wandb-upload_0:98059 [upload_job.py:push():130] Uploaded file /var/folders/1b/dx8_94fs0q740wx3lfknk6y40000gn/T/tmphmnxbkoewandb/8s12m4gq-wandb-metadata.json
+2024-06-26 12:05:24,506 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:05:24,506 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/wandb-metadata.json
+2024-06-26 12:05:24,506 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/requirements.txt
+2024-06-26 12:05:24,849 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:25,852 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:26,511 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:05:26,853 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:27,858 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:28,213 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:28,861 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:29,863 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:30,869 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:31,872 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:32,877 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:33,851 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:33,882 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:34,889 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:35,892 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:36,897 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:37,900 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:38,849 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:05:38,849 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:05:38,905 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:39,147 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:39,910 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:40,915 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:41,917 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:42,917 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:43,925 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:44,860 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:44,927 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:45,936 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:46,594 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:05:46,936 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:47,937 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:48,607 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:05:48,943 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:49,946 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:50,866 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:50,948 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:51,619 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/config.yaml
+2024-06-26 12:05:51,951 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:52,967 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:53,860 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:05:53,868 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:05:53,962 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:54,987 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:55,640 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:05:55,991 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:56,197 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:05:56,993 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:58,010 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:05:59,004 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:00,008 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:01,013 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:01,876 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:02,026 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:03,028 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:04,032 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:05,036 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:06,040 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:06,884 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:07,044 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:08,049 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:08,860 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:06:08,861 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:06:09,053 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:10,058 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:11,060 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:12,060 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:12,113 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:13,065 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:14,069 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:15,073 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:16,075 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:17,076 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:17,562 DEBUG   SystemMonitor:98059 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-26 12:06:17,563 DEBUG   SenderThread:98059 [sender.py:send():379] send: telemetry
+2024-06-26 12:06:17,564 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:06:17,564 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:18,077 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:19,080 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:20,090 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:21,090 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:22,098 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:22,703 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:22,987 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/config.yaml
+2024-06-26 12:06:23,098 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:23,865 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:06:23,865 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:06:24,101 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:24,994 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:25,105 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:26,109 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:26,998 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:27,112 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:28,013 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:28,116 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:29,008 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:29,118 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:30,123 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:31,016 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:31,126 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:32,130 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:33,021 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:33,134 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:33,177 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:34,134 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:35,030 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:35,137 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:36,140 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:37,037 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:37,145 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:38,151 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:38,251 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:38,868 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:06:38,869 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:06:39,046 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:39,154 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:40,156 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:41,051 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:41,162 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:42,164 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:43,061 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:43,167 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:43,376 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:44,168 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:45,068 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:45,171 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:46,175 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:47,075 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:47,177 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:47,597 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:06:48,181 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:48,391 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:49,084 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:49,185 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:50,190 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:51,092 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:51,194 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:52,197 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:53,099 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:53,201 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:53,491 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:53,871 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:06:53,871 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:06:54,206 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:55,106 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:55,208 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:56,213 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:57,110 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:57,216 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:58,220 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:06:58,718 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:06:59,119 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:06:59,224 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:00,227 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:01,127 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:01,232 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:02,234 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:03,133 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:03,236 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:03,803 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:04,240 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:05,141 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:05,244 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:06,246 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:07,145 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:07,250 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:08,251 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:08,852 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:08,874 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:07:08,875 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:07:09,152 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:09,257 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:10,262 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:11,161 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:11,264 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:12,267 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:13,169 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:13,271 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:13,918 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:14,275 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:15,180 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:15,279 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:16,282 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:17,200 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:17,288 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:17,602 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:07:18,291 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:18,922 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:19,249 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:19,294 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:20,297 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:21,300 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:22,319 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:23,321 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:23,877 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:07:23,877 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:07:24,181 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:24,304 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:24,324 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:25,310 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:26,312 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:27,315 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:28,319 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:29,323 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:29,930 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:30,328 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:31,330 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:32,337 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:33,377 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:34,340 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:34,384 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:34,935 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:35,345 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:36,351 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:37,353 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:38,365 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:38,880 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:07:38,880 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:07:39,370 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:40,374 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:40,398 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:41,376 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:42,378 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:42,424 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:43,384 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:44,387 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:44,434 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:45,394 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:45,950 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:46,396 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:47,410 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:47,603 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:07:48,402 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:49,408 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:50,412 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:50,956 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:51,417 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:52,420 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:53,431 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:53,897 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:07:53,905 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:07:54,429 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:54,470 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:07:55,432 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:56,189 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:07:56,434 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:57,436 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:58,440 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:07:59,442 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:00,447 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:01,452 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:01,537 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:02,454 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:02,496 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:08:03,459 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:04,462 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:05,466 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:06,469 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:06,970 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:07,472 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:08,478 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:08,511 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:08:08,893 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:08:08,893 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:08:09,477 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:10,480 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:11,483 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:12,175 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:12,488 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:13,493 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:14,494 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:15,496 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:16,501 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:16,542 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:08:17,486 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:17,505 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:17,613 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:08:18,509 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:19,512 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:20,519 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:21,518 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:22,521 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:22,997 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:23,524 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:23,894 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:08:23,895 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:08:24,538 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:24,570 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:08:25,531 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:26,533 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:27,539 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:28,211 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:28,541 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:29,542 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:30,545 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:31,563 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:32,562 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:33,567 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:33,972 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:34,569 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:35,573 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:36,576 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:36,615 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:08:37,581 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:38,585 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:38,895 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:08:38,897 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:08:39,168 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:39,588 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:40,593 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:41,596 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:42,599 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:43,601 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:44,604 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:44,982 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:45,608 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:46,614 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:47,618 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:08:47,620 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:48,622 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:49,630 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:49,990 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:50,633 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:51,637 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:52,640 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:53,643 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:53,897 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:08:53,898 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:08:54,647 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:55,145 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:08:55,650 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:56,651 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:57,840 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:58,724 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:08:59,711 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:00,715 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:01,057 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:01,718 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:02,721 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:03,723 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:04,727 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:05,733 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:07,048 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:07,333 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:08,337 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:08,815 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:09:08,902 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:09:08,902 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:09:09,342 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:10,347 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:11,351 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:12,211 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:12,356 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:13,355 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:14,358 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:15,362 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:16,364 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:17,369 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:17,623 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:09:17,624 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:18,369 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:18,850 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:09:19,372 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:20,375 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:21,394 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:22,382 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:22,879 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:09:23,106 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:23,386 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:23,906 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:09:23,907 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:09:24,388 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:25,391 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:26,394 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:27,398 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:28,196 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:28,402 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:29,430 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:30,414 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:30,908 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:09:31,418 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:32,424 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:33,426 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:34,023 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:34,431 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:35,434 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:36,438 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:37,441 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:38,444 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:38,912 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:09:38,927 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:09:39,822 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:39,829 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:40,803 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:41,806 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:42,810 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:43,864 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:44,918 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:45,402 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:45,853 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:46,857 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:47,003 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:09:47,633 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:09:47,863 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:48,870 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:49,880 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:50,904 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:51,045 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:51,890 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:52,895 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:53,898 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:53,917 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:09:53,918 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:09:54,902 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:55,906 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:56,189 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:09:56,913 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:57,916 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:58,920 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:09:59,925 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:00,935 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:01,839 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:01,935 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:02,940 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:03,128 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:10:03,945 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:04,946 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:05,949 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:06,952 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:07,052 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:07,956 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:08,926 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:10:08,928 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:10:08,960 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:09,966 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:10,968 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:11,178 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:10:11,975 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:12,183 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:12,981 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:13,986 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:14,989 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:15,993 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:16,997 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:17,638 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:10:17,638 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:18,003 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:19,006 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:20,012 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:21,015 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:22,017 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:23,018 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:23,086 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:23,929 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:10:23,931 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:10:24,021 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:25,026 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:26,031 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:27,035 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:28,035 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:28,256 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:29,041 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:30,042 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:31,044 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:32,062 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:33,057 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:34,063 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:34,080 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:35,067 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:36,074 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:37,079 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:37,294 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:10:38,083 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:38,934 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:10:38,935 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:10:39,086 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:39,208 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:40,088 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:41,094 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:42,100 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:43,152 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:44,108 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:45,091 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:45,111 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:45,323 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:10:46,117 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:47,118 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:47,641 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:10:48,121 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:49,127 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:49,372 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:10:50,098 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:50,131 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:51,135 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:52,138 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:53,138 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:53,938 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:10:53,939 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:10:54,141 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:55,147 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:55,214 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:10:56,148 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:57,152 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:58,155 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:10:59,159 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:00,230 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:00,730 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:01,175 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:01,424 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:02,173 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:03,173 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:04,179 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:05,184 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:06,107 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:06,188 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:07,190 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:08,194 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:08,942 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:11:08,943 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:11:09,195 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:10,212 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:11,212 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:11,491 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:11,649 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:12,215 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:13,218 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:14,219 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:15,217 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:16,222 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:17,115 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:17,228 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:17,648 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:11:18,232 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:19,232 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:19,522 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:20,234 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:21,237 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:22,241 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:22,673 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:23,242 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:23,543 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:23,943 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:11:23,943 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:11:24,246 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:25,252 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:26,252 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:27,258 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:28,169 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:28,262 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:29,266 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:29,568 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:30,267 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:31,271 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:32,276 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:33,172 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:33,289 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:34,292 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:35,294 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:36,298 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:37,300 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:38,303 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:38,595 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:38,946 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:11:38,947 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:11:39,313 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:39,995 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:40,313 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:41,317 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:42,318 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:43,321 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:44,124 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:44,322 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:45,323 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:46,325 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:47,337 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:47,661 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:11:48,340 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:49,126 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:49,340 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:50,359 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:51,385 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:52,060 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:52,364 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:53,363 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:53,950 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:11:53,950 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:11:54,163 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:11:54,364 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:55,368 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:56,112 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:11:56,371 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:57,377 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:58,381 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:11:59,382 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:00,136 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:00,384 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:01,387 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:02,393 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:03,395 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:04,139 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:12:04,406 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:05,146 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:05,406 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:06,412 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:07,421 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:08,418 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:08,955 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:12:08,956 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:12:09,420 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:10,245 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:10,423 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:11,426 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:12,430 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:13,437 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:14,186 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:12:14,441 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:15,444 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:16,156 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:16,448 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:17,452 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:17,677 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:12:18,454 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:19,457 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:20,458 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:21,163 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:21,462 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:22,466 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:23,472 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:23,960 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:12:23,962 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:12:24,476 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:25,487 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:26,256 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:26,484 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:27,486 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:28,491 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:29,496 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:30,498 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:31,503 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:32,171 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:32,505 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:33,509 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:34,514 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:35,518 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:36,521 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:37,176 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:37,523 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:38,529 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:38,965 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:12:38,967 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:12:39,533 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:40,539 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:41,542 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:42,300 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:12:42,497 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:42,546 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:43,548 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:44,551 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:45,554 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:46,310 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:12:46,558 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:47,584 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:47,674 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:12:47,674 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:48,569 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:49,569 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:50,575 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:51,578 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:52,584 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:53,178 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:53,585 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:53,969 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:12:53,970 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:12:54,365 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:12:54,589 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:55,598 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:56,600 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:57,603 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:58,260 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:12:58,606 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:12:59,610 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:00,612 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:01,617 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:02,424 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:13:02,623 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:03,624 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:03,943 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:04,624 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:05,629 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:06,634 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:07,637 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:08,641 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:08,976 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:13:08,978 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:13:09,282 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:09,645 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:10,647 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:11,653 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:12,459 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:13:12,656 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:13,661 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:14,664 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:15,204 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:15,665 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:16,669 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:17,672 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:17,680 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:13:18,487 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:13:18,677 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:19,679 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:20,684 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:21,205 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:21,688 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:22,694 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:23,698 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:23,976 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:13:23,976 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:13:24,699 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:25,702 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:26,232 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:26,705 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:27,708 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:28,713 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:29,717 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:30,719 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:31,722 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:32,223 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:32,727 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:33,730 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:34,560 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:13:34,734 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:35,739 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:36,744 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:37,317 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:37,749 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:38,752 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:38,978 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:13:38,979 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:13:39,758 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:40,760 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:41,787 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:42,769 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:43,250 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:43,769 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:44,774 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:45,779 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:46,782 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:47,686 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:13:47,787 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:49,034 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:49,138 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:49,808 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:50,812 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:51,063 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:13:51,814 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:52,819 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:53,820 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:53,982 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:13:53,983 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:13:54,227 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:55,047 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:55,904 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:56,910 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:57,913 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:58,917 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:13:59,248 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:13:59,926 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:00,925 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:01,930 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:02,932 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:03,938 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:04,938 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:05,249 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:05,945 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:06,951 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:07,954 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:08,963 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:08,987 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:14:08,988 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:14:09,960 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:10,312 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:10,965 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:11,967 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:12,970 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:13,972 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:14,972 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:15,976 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:16,266 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:16,979 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:17,710 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:14:17,983 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:18,988 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:19,989 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:20,993 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:21,267 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:21,996 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:22,998 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:23,990 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:14:23,990 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:14:23,999 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:24,999 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:26,002 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:26,274 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:27,005 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:28,005 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:29,009 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:30,014 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:31,020 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:31,278 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:32,022 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:33,026 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:34,028 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:35,032 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:36,038 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:37,040 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:37,280 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:38,046 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:38,991 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:14:38,992 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:14:39,049 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:40,052 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:41,059 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:42,063 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:42,304 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:43,067 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:44,068 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:45,073 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:46,076 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:47,104 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:47,310 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:47,707 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:14:48,104 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:49,106 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:50,108 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:51,111 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:52,122 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:52,389 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:53,127 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:53,996 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:14:54,010 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:14:54,132 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:55,144 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:56,143 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:57,149 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:57,655 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:14:57,876 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:14:58,151 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:59,156 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:14:59,652 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:00,166 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:01,163 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:01,663 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:02,165 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:03,390 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:03,426 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:03,673 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:04,169 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:05,176 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:06,179 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:07,182 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:08,185 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:09,000 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:15:09,000 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:15:09,187 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:09,206 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:10,199 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:11,195 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:12,198 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:13,200 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:14,205 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:14,319 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:15,209 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:16,210 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:17,213 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:17,712 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:15:18,217 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:19,222 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:19,324 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:20,248 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:21,227 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:21,747 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:22,232 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:23,235 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:24,005 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:15:24,005 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:15:24,236 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:24,326 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:25,238 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:26,242 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:27,249 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:28,253 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:29,257 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:29,330 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:29,777 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:30,260 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:31,275 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:31,830 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:32,270 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:33,274 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:34,272 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:34,340 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:34,881 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:35,281 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:36,275 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:36,888 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:37,278 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:38,291 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:38,896 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:39,009 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:15:39,009 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:15:39,285 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:40,287 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:40,340 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:41,307 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:42,302 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:42,931 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:43,301 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:44,305 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:44,943 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:45,310 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:46,217 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:46,312 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:46,952 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:47,643 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:47,719 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:15:48,336 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:49,000 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:49,332 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:50,333 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:51,007 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:51,343 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:51,374 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:52,350 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:53,373 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:54,020 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-26 12:15:54,021 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: stop_status
+2024-06-26 12:15:54,403 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:55,379 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:56,406 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:56,969 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:15:57,134 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:15:57,391 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:58,396 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:15:59,414 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:16:00,224 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:16:00,409 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:16:01,409 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:16:02,027 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:16:02,235 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:16:02,411 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:16:03,434 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:16:03,676 DEBUG   SenderThread:98059 [sender.py:send():379] send: telemetry
+2024-06-26 12:16:03,677 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: server_info
+2024-06-26 12:16:03,677 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: server_info
+2024-06-26 12:16:03,879 DEBUG   SenderThread:98059 [sender.py:send():379] send: exit
+2024-06-26 12:16:03,879 INFO    SenderThread:98059 [sender.py:send_exit():586] handling exit code: 0
+2024-06-26 12:16:03,879 INFO    SenderThread:98059 [sender.py:send_exit():588] handling runtime: 646
+2024-06-26 12:16:03,879 INFO    SenderThread:98059 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-26 12:16:03,880 INFO    SenderThread:98059 [sender.py:send_exit():594] send defer
+2024-06-26 12:16:03,880 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,880 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-26 12:16:03,883 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,883 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-26 12:16:03,883 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 1
+2024-06-26 12:16:03,883 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,883 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-26 12:16:03,884 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,884 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-26 12:16:03,884 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 2
+2024-06-26 12:16:03,884 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,885 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-26 12:16:03,885 INFO    HandlerThread:98059 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-26 12:16:03,886 DEBUG   SystemMonitor:98059 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-26 12:16:03,886 DEBUG   SystemMonitor:98059 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-26 12:16:03,886 INFO    HandlerThread:98059 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-26 12:16:03,888 INFO    HandlerThread:98059 [interfaces.py:finish():200] Joined disk monitor
+2024-06-26 12:16:03,888 INFO    HandlerThread:98059 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-06-26 12:16:03,888 INFO    HandlerThread:98059 [interfaces.py:finish():200] Joined memory monitor
+2024-06-26 12:16:03,889 INFO    HandlerThread:98059 [interfaces.py:finish():200] Joined network monitor
+2024-06-26 12:16:03,889 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,889 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-26 12:16:03,889 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 3
+2024-06-26 12:16:03,889 DEBUG   SenderThread:98059 [sender.py:send():379] send: stats
+2024-06-26 12:16:03,889 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,889 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-26 12:16:03,890 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,890 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-26 12:16:03,890 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 4
+2024-06-26 12:16:03,890 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,890 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-26 12:16:03,891 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,891 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-26 12:16:03,891 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 5
+2024-06-26 12:16:03,891 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,891 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-26 12:16:03,891 DEBUG   SenderThread:98059 [sender.py:send():379] send: summary
+2024-06-26 12:16:03,892 INFO    SenderThread:98059 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-26 12:16:03,892 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,892 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-26 12:16:03,892 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 6
+2024-06-26 12:16:03,892 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:03,892 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-26 12:16:03,892 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:03,893 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-26 12:16:03,896 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: status_report
+2024-06-26 12:16:04,184 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 7
+2024-06-26 12:16:04,185 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:04,185 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-26 12:16:04,185 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:04,185 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-26 12:16:04,251 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/config.yaml
+2024-06-26 12:16:04,252 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/wandb-summary.json
+2024-06-26 12:16:04,889 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-26 12:16:05,257 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:16:07,661 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 8
+2024-06-26 12:16:07,662 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: poll_exit
+2024-06-26 12:16:07,662 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:07,663 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-26 12:16:07,663 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:07,663 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-26 12:16:07,664 INFO    SenderThread:98059 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-26 12:16:07,664 INFO    SenderThread:98059 [job_builder.py:_get_source_type():580] no source found
+2024-06-26 12:16:07,664 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 9
+2024-06-26 12:16:07,664 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:07,664 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-26 12:16:07,665 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:07,665 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-26 12:16:07,665 INFO    SenderThread:98059 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-26 12:16:07,892 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-26 12:16:08,275 INFO    Thread-62 :98059 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:16:08,286 INFO    SenderThread:98059 [dir_watcher.py:finish():388] scan: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files
+2024-06-26 12:16:08,287 INFO    SenderThread:98059 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/requirements.txt requirements.txt
+2024-06-26 12:16:08,287 INFO    SenderThread:98059 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log output.log
+2024-06-26 12:16:08,287 INFO    SenderThread:98059 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/config.yaml config.yaml
+2024-06-26 12:16:08,288 INFO    SenderThread:98059 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/wandb-summary.json wandb-summary.json
+2024-06-26 12:16:08,288 INFO    SenderThread:98059 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/conda-environment.yaml conda-environment.yaml
+2024-06-26 12:16:08,288 INFO    SenderThread:98059 [dir_watcher.py:finish():402] scan save: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/wandb-metadata.json wandb-metadata.json
+2024-06-26 12:16:08,291 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 10
+2024-06-26 12:16:08,291 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: poll_exit
+2024-06-26 12:16:08,292 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:08,297 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-26 12:16:08,297 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:08,308 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-26 12:16:08,308 INFO    SenderThread:98059 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-26 12:16:08,867 INFO    wandb-upload_0:98059 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/requirements.txt
+2024-06-26 12:16:08,901 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-26 12:16:08,902 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: poll_exit
+2024-06-26 12:16:08,913 INFO    wandb-upload_3:98059 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/wandb-summary.json
+2024-06-26 12:16:08,914 INFO    wandb-upload_4:98059 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/conda-environment.yaml
+2024-06-26 12:16:08,943 INFO    wandb-upload_2:98059 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/config.yaml
+2024-06-26 12:16:09,905 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-26 12:16:09,905 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: poll_exit
+2024-06-26 12:16:10,103 INFO    wandb-upload_1:98059 [upload_job.py:push():130] Uploaded file /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/files/output.log
+2024-06-26 12:16:10,307 INFO    Thread-61 :98059 [sender.py:transition_state():614] send defer: 11
+2024-06-26 12:16:10,308 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:10,308 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-26 12:16:10,308 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:10,309 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-26 12:16:10,309 INFO    SenderThread:98059 [file_pusher.py:join():175] waiting for file pusher
+2024-06-26 12:16:10,309 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 12
+2024-06-26 12:16:10,309 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:10,309 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-26 12:16:10,310 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:10,310 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-26 12:16:10,310 INFO    SenderThread:98059 [file_stream.py:finish():601] file stream finish called
+2024-06-26 12:16:10,911 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-26 12:16:11,110 INFO    SenderThread:98059 [file_stream.py:finish():605] file stream finish is done
+2024-06-26 12:16:11,111 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 13
+2024-06-26 12:16:11,111 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: poll_exit
+2024-06-26 12:16:11,111 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:11,111 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-26 12:16:11,111 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:11,111 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-26 12:16:11,111 INFO    SenderThread:98059 [sender.py:transition_state():614] send defer: 14
+2024-06-26 12:16:11,111 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: defer
+2024-06-26 12:16:11,112 INFO    HandlerThread:98059 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-26 12:16:11,112 DEBUG   SenderThread:98059 [sender.py:send():379] send: final
+2024-06-26 12:16:11,112 DEBUG   SenderThread:98059 [sender.py:send():379] send: footer
+2024-06-26 12:16:11,112 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: defer
+2024-06-26 12:16:11,112 INFO    SenderThread:98059 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-26 12:16:11,113 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-26 12:16:11,113 DEBUG   SenderThread:98059 [sender.py:send_request():406] send_request: poll_exit
+2024-06-26 12:16:11,114 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-26 12:16:11,115 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-26 12:16:11,116 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-26 12:16:11,116 DEBUG   HandlerThread:98059 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-26 12:16:11,117 INFO    HandlerThread:98059 [handler.py:finish():882] shutting down handler
+2024-06-26 12:16:12,119 INFO    WriterThread:98059 [datastore.py:close():296] close: /Users/seongyeon/Desktop/AI/AIFFEL_STUDY/DLTHON/wandb/run-20240626_120509-qratq9j8/run-qratq9j8.wandb
+2024-06-26 12:16:12,120 INFO    SenderThread:98059 [sender.py:finish():1608] shutting down sender
+2024-06-26 12:16:12,121 INFO    SenderThread:98059 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-26 12:16:12,121 INFO    SenderThread:98059 [file_pusher.py:join():175] waiting for file pusher
