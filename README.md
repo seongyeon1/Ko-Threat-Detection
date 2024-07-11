@@ -14,7 +14,10 @@
 |                                           [@seongyeon1](https://github.com/seongyeon1)                                            |                                               [@L3earl](https://github.com/L3earl)                                                |                                               [@ek0111](https://github.com/ek0111)                                               |
 |                                                         데이터 전처리, EDA, 모델링                                                         |                                                        실험 설계, 시스템 디자인, 모델링                                                        |                                                       데이터 전처리, 데이터 증강, 모델링                                                       |
 
-## ⭐️ 프로젝트 소개
+<br>
+
+---
+## 프로젝트 소개
 한국어 위협 대화 분류 (NLU : Natural Language Understanding)
 ![img](img/img.png)
 
@@ -27,8 +30,10 @@
 > 6. **적절한 metric을 설정하고 그 사용 근거 및 결과를 분석하였는가?**
 > 7. **발표가 매끄럽게 진행되었고 발표 시간을 준수하였는지?**
 
-----
-## 📚 STACKS
+<br>
+
+---
+## 사용 기술
 
 ### Environment
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
@@ -52,6 +57,9 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white)
 ![GoogleCloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+<br>
+
 ---
 ## 협업
 - 효과적인 협업을 위해 노션을 활용했다
@@ -61,7 +69,7 @@
 |:----------------:|:------------------:|
 | ![img](img/task.png) | ![todo](img/to_do.png) |  
 
-
+<br>
 ---
 
 ## 실험 설계
@@ -70,11 +78,15 @@
 
 ![wandb](img/wandb.png)
 
+<br>
+
 ### 실험 정리
 - 성능 평가를 좀 더 체계적으로 하기 위한 방법을 고안하였다
 - 각자 모델링을 해보고 이에 따른 성능 비교를 할 수 있는 구조를 활용하였다.
 - 각자 아이디어로 실험 > 전처리, 모델 모듈화 > 반복 수행 > 결과 비교로 인사이트 획득, 개선 점 토론 > 반복하는 구조로 실험을 진행하였다.
 ![img](img/img2.png)
+
+<br>
 
 ---
 
@@ -83,9 +95,13 @@
 ### 형태소 분석
 ![img3](img/img3.png)
 
+<br>
+
 ### 불용어 추가
 ![img4](img/img4.png)
 - 각 클래스별 워드 클라우드 및 자세한 내용은 ppt 폴더의 발표자료 참고
+
+<br>
 
 ### 일반 데이터셋 추가
 ##### 1) 주제별 텍스트 일상 대화 데이터셋
@@ -94,6 +110,8 @@
 ##### 2) 국립국어원 일상 대화 음성 말뭉치 2021
 ![co](img/corpus.png)
 - 출처 및 설명 : https://81675795.ucloudcdnglobal.com/166/NIKL_Dialogue_2021_PCM_v1.1.pdf
+
+<br>
 
 ## 모델링
 - 아이펠 학습에서 사용했던 모델들과 최신 모델들을 활용해서 모델링을 진행했다
@@ -104,6 +122,9 @@
 - 나온 결과들의 앙상블을 통해 성능을 최대화 하였다
 ![logit](img/logit.png)![mode](img/mode.png)
 
+<br>
+
+---
 ## 결론
 - 전처리 측면에서 맞춤법 교정을 추가하면 좋을 것
 - 단순 내용, 단어들 만으로 분류하는 것은 좋은 성능 내기 어려울 것으로 보임
@@ -112,6 +133,9 @@
 ![more](img/more1.png)
 ![more2](img/more2.png)
 
+<br>
+
+---
 ## 디렉토리 구조
 ```bash
 ├── README.md
