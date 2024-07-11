@@ -2,7 +2,8 @@
 
 ## 개요
 > **아이펠 DLthon 프로젝트** <br/> **프로젝트 기간: 2024.06.24 ~ 2024.06.27** <br/>
-> **실험 결과 확인(wandb)** : [https://wandb.ai/dogcat1943/text-multi-label-classification?nw=nwuserdogcat1943](https://wandb.ai/dogcat1943/text-multi-label-classification?nw=nwuserdogcat1943) <br>
+> **실험 결과 확인(wandb)** :
+> - [https://wandb.ai/dogcat1943/text-multi-label-classification?nw=nwuserdogcat1943](https://wandb.ai/dogcat1943/text-multi-label-classification?nw=nwuserdogcat1943) <br>
 
 
 ## 팀원 소개
